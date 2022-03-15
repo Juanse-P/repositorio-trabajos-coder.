@@ -128,25 +128,24 @@
     color: rgb(15, 111, 201);
 }
 nav{
+    padding: 7rem 3rem 7rem 1rem;
     background: rgb(245, 245, 245, 0.856);
     width: 100%;
-    border-bottom-left-radius: 7%;
-    border-bottom-right-radius: 7%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
     font-family: "Architects Daughter", cursive;
+}
+nav img{
+    width: 5rem;
 }
 .ul{
     list-style-type: none;
-    padding: 2rem;
+    gap: 35px;
+    padding-left: 60px;
 }
 .ul li{
-    display: inline-block;
-    position: relative;
-    font-size: 115%;
-    padding: 20px;
+    font-size: 125%;
+    padding: 10px;
 }
 .ul li:hover{
     background: rgba(128, 128, 128, 0.521);
@@ -176,7 +175,7 @@ nav{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 .cajaBlanca2 img{
-    width: 18rem;
+    width: 15rem;
     border: solid 3px gray;
 }
 .imso:hover{
@@ -215,7 +214,8 @@ nav{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 .cajaBlanca3 img{
-    width: 20rem;
+    width: 12rem;
+    height: 12rem;
     border: solid 3px gray;
 }
 .cajaBlanca4{
@@ -249,22 +249,33 @@ nav{
     background: rgba(245, 245, 245, 0.658);
     border-radius: 7%;
     border: solid 2px white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "texmap" "mapi";
+    align-items: stretch;
+    justify-items: stretch;
+}
+.mapi iframe{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.texmap{
+    padding: 20px;
 }
 .cajaBlanca5 h1{
     font-family: 'Handlee', cursive;
 }
 .cajaBlanca5 div{
-    width: auto;
     height: auto;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
-.cajaBlanca5 img{
-    width: 15rem;
-    border: solid 3px gray;
+.mapi{
+    width: auto;
 }
 .cajaBlanca6{
     padding: 5%;
@@ -273,14 +284,21 @@ nav{
     background: rgba(245, 245, 245, 0.658);
     border-radius: 7%;
     border: solid 2px white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "texmap2" "mapi2";
 }
-.cajaBlanca6 img{
-    width: 15rem;
-    border: solid 3px gray;
+.cajaBlanca6 iframe{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.texmap2{
+    padding: 20px;
 }
 .cajaBlanca6 h1{
     font-family: 'Handlee', cursive;
@@ -330,6 +348,90 @@ nav{
 }
 .hijo{
     border: 2px;
+}
+.ima1 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.ima2 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.ima3 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.ima4 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.ima5 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.ima6 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.ima7 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.ima8 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.ima9 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.ima10 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.ima11 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.ima12 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.ima1 .btn:hover{
+    background: rgba(128, 128, 128, 0.904);
+}
+.ima2 .btn:hover{
+    background: rgba(128, 128, 128, 0.904);
+}
+.ima3 .btn:hover{
+    background: rgba(128, 128, 128, 0.904);
+}
+.ima4 .btn:hover{
+    background: rgba(128, 128, 128, 0.904);
+}
+.ima5 .btn:hover{
+    background: rgba(128, 128, 128, 0.904);
+}
+.ima6 .btn:hover{
+    background: rgba(128, 128, 128, 0.904);
+}
+.ima7 .btn:hover{
+    background: rgba(128, 128, 128, 0.904);
+}
+.ima8 .btn:hover{
+    background: rgba(128, 128, 128, 0.904);
+}
+.ima9 .btn:hover{
+    background: rgba(128, 128, 128, 0.904);
+}
+.ima10 .btn:hover{
+    background: rgba(128, 128, 128, 0.904);
+}
+.ima11 .btn:hover{
+    background: rgba(128, 128, 128, 0.904);
+}
+.ima12 .btn:hover{
+    background: rgba(128, 128, 128, 0.904);
 }
 .ima1:hover{
     transform: rotate(1turn 1s);
@@ -490,38 +592,6 @@ nav{
     }
 }
 @media screen and (max-width: 610px){
-    nav{
-        background: rgb(245, 245, 245, 0.856);
-        width: 100%;
-        border-bottom-left-radius: 7%;
-        border-bottom-right-radius: 7%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        font-family: "Architects Daughter", cursive;
-    }
-    .ul{
-        list-style-type: none;
-        padding: 2px;
-    }
-    .ul li{
-        display: flex;
-        flex-direction: column;
-        font-size: 115%;
-        padding: 20px;
-        align-items: center;
-        border: solid 1px white;
-        border-radius: 60%;
-        background:rgba(245, 245, 245, 0.856);
-    }
-    .ul li:hover{
-        background: rgba(128, 128, 128, 0.521);
-    }
-    .ul li a{
-        text-decoration: none;
-        color: rgb(15, 111, 201);
-    }
     .footerPr{
         background: white;
         margin: 0;
