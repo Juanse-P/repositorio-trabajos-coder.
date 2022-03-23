@@ -1,0 +1,194 @@
+.body4{
+    background-image: url("../mutilmedias/imagenfondo4.jpg");
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.contenedorgr4{
+    width: 100%;
+    height: 100vh;
+    margin-right: 0;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr 3fr;
+    gap: 10px;
+    grid-template-areas: 
+        "nav nav nav"
+        "titu titu titu"
+        "ima1 ima2 ima3"
+        "ima4 ima5 ima6"
+        "ima7 ima8 ima9"
+        "ima10 ima11 ima12"
+        "foot foot foot";
+    div{
+        h1{
+            font-family: 'Handlee', cursive;
+        }
+        a{
+            img{
+                width: 100%;
+                border-radius: 5%;
+            }
+        }
+        nav{
+            a{
+                img{
+                    width: 5rem;
+                    height: 5rem;
+                }
+            }
+        }
+    }
+    .hijo{
+        background: $fondotransp;
+        margin: 5%;
+        padding: 5%;
+        border-radius: 7%;
+        border: solid 2px white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+.hijo{
+    border: 2px;
+}
+.ima1 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.btn:hover{
+    background: rgba(128, 128, 128, 0.904)
+}
+.ima1:hover{
+    transform: rotate(1turn 1s);
+    transform: scale(1.1,1.1);
+    background: whitesmoke;
+}
+.ima2 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.btn:hover{
+    background: rgba(128, 128, 128, 0.904)
+}
+.ima2:hover{
+    transform: rotate(1turn 1s);
+    transform: scale(1.1,1.1);
+    background: whitesmoke;
+}
+.ima3 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.btn:hover{
+    background: rgba(128, 128, 128, 0.904)
+}
+.ima3:hover{
+    transform: rotate(1turn 1s);
+    transform: scale(1.1,1.1);
+    background: whitesmoke;
+}
+.ima4 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.btn:hover{
+    background: rgba(128, 128, 128, 0.904)}
+.ima4:hover{
+    transform: rotate(1turn 1s);
+    transform: scale(1.1,1.1);
+    background: whitesmoke;
+}
+.ima5 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.btn:hover{
+    background: rgba(128, 128, 128, 0.904)}
+    .ima5:hover{
+        transform: rotate(1turn 1s);
+        transform: scale(1.1,1.1);
+        background: whitesmoke;
+    }
+.ima6 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.btn:hover{
+    background: rgba(128, 128, 128, 0.904)}
+    .ima6:hover{
+        transform: rotate(1turn 1s);
+        transform: scale(1.1,1.1);
+        background: whitesmoke;
+    }
+.ima7 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.btn:hover{
+    background: rgba(128, 128, 128, 0.904)}
+    .ima7:hover{
+        transform: rotate(1turn 1s);
+        transform: scale(1.1,1.1);
+        background: whitesmoke;
+    }
+.ima8 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.btn:hover{
+    background: rgba(128, 128, 128, 0.904)}
+    .ima8:hover{
+        transform: rotate(1turn 1s);
+        transform: scale(1.1,1.1);
+        background: whitesmoke;
+    }
+.ima9 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.btn:hover{
+    background: rgba(128, 128, 128, 0.904)}
+    .ima9:hover{
+        transform: rotate(1turn 1s);
+        transform: scale(1.1,1.1);
+        background: whitesmoke;
+    }
+.ima10 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.btn:hover{
+    background: rgba(128, 128, 128, 0.904)}
+    .ima10:hover{
+        transform: rotate(1turn 1s);
+        transform: scale(1.1,1.1);
+        background: whitesmoke;
+    }
+.ima11 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.btn:hover{
+    background: rgba(128, 128, 128, 0.904)}
+    .ima11:hover{
+        transform: rotate(1turn 1s);
+        transform: scale(1.1,1.1);
+        background: whitesmoke;
+    }
+.ima12 img{
+    border-radius: 7%;
+    border: solid 2px gray;
+}
+.btn:hover{
+    background: rgba(128, 128, 128, 0.904)}
+    .ima12:hover{
+        transform: rotate(1turn 1s);
+        transform: scale(1.1,1.1);
+        background: whitesmoke;
+    }

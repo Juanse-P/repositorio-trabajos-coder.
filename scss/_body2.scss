@@ -1,0 +1,96 @@
+.body2{
+    background-image: url("../mutilmedias/imagenfondo2.jpg");
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.cajaBlanca2{
+    padding: 5%;
+    margin: 5%;
+    border: 20px;
+    background: $fondotransp;
+    border-radius: 7%;
+    border: solid 2px white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    h1{
+        font-family: 'Handlee', cursive;
+    }
+    p{
+        width: 15rem;
+        height: auto;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    }
+    img{
+        width: 15rem;
+        border: solid 3px gray;
+    }
+}
+.cajaBlanca3{
+    padding: 5%;
+    margin: 5%;
+    border: 20px;
+    background: $fondotransp;
+    border-radius: 7%;
+    border: solid 2px white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    div{
+        width: 15rem;
+        height: auto;
+    }
+    h1{
+        font-family: 'Handlee', cursive;
+    }
+    p{
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    }
+    img{
+        width: 15rem;
+        height: 15rem;
+        border: solid 3px gray;
+    }
+}
+.cajaBlanca4{
+    padding: 5%;
+    margin: 5%;
+    border: 20px;
+    background: $fondotransp;
+    border-radius: 7%;
+    border: solid 2px white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    h1{
+        font-family: 'Handlee', cursive;
+    }
+    p{
+        width: 15rem;
+        height: auto;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    }
+    img{
+        width: 15rem;
+        border: solid 3px gray;
+    }
+}
+.imso:hover{
+    transform: scale(1.2,1.3);
+}
+.imso2:hover{
+    transform: scale(1.2,1.2);
+}
+.imso3:hover{
+    transform: scale(1.2,1.2);
+}
+.imso4:hover{
+    transform: scale(1.2,1.2);
+}

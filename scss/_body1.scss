@@ -1,0 +1,49 @@
+.body1{
+    background-image: url("../mutilmedias/imagenfonfo1.jpg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.contenedorgr{
+    width: 100%;
+    height: 100vh;
+    margin-right: 0;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 3fr 30fr 3fr;
+    gap: 10px;
+    grid-template-areas: 
+        "nav nav nav"
+        "bvac bod vac"
+        "foot foot foot";
+}
+.bod{
+    padding: 3% 3% 3% 3%;
+    margin: 23% 2% 23% 2%;
+    border: 20px 20px 20px 20px;
+    background: $fondotransp;
+    text-align: center;
+    border-radius: 7%;
+    border: solid 2px white;
+    div{
+        margin: 10%;
+        h1{
+            margin: 10%;
+            font-family: 'Redressed', cursive;
+            font-size: 200%;
+        }
+        h2{
+            margin: 10%;
+            font-family: 'Handlee', cursive;
+            font-size: 150%;
+        }
+        p{
+            margin: 10%;
+            font-family: 'Zen Kaku Gothic Antique', sans-serif;
+            font-size: 125%;
+        }
+    }
+}

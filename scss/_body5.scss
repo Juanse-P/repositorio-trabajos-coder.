@@ -1,0 +1,24 @@
+.body5{
+    background-image: url("../mutilmedias/imagenfondo5.jpg");
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.cajaBlanca7{
+    padding: 5%;
+    margin: 10% 15% 10% 15%;
+    border: 20px 20px 20px 20px;
+    background: $fondotransp;
+    text-align: center;
+    border-radius: 7%;
+    border: solid 2px white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    h1{
+        font-family: 'Handlee', cursive;
+    }
+    div{
+        padding: 1rem;
+    }
+}
