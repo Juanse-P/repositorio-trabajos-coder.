@@ -5,13 +5,17 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-}.cajaBlanca5{
+}
+.contSD{
     padding: 5%;
     margin: 5%;
     border: 20px;
     background: $fondotransp;
     border-radius: 7%;
     border: solid 2px white;
+}
+.cajaBlanca5{
+    @extend .contSD;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -32,21 +36,16 @@
     iframe{
         width: 100%;
         height: 100%;
-        padding: 10px;
+        padding: 5px;
         border-radius: 7%;
         border: solid 2px gray;
     }
 }
 .texmap{
-    padding: 20px;
+    padding: 60px;
 }
 .cajaBlanca6{
-    padding: 5%;
-    margin: 5%;
-    border: 20px;
-    background: $fondotransp;
-    border-radius: 7%;
-    border: solid 2px white;
+    @extend .contSD;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -69,5 +68,5 @@
     }
 }
 .texmap2{
-    padding: 20px;
+    padding: 60px;
 }

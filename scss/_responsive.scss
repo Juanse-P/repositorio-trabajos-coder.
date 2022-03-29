@@ -168,33 +168,12 @@
         border-radius: 7%;
         border: solid 2px white;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-around;
-    }
-    .cajaBlanca3{
-        padding: 2%;
-        margin: 2%;
-        border: 20px;
-        background: rgba(245, 245, 245, 0.658);
-        border-radius: 7%;
-        border: solid 2px white;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .cajaBlanca4{
-        padding: 2%;
-        margin: 2%;
-        border: 20px;
-        background: rgba(245, 245, 245, 0.658);
-        border-radius: 7%;
-        border: solid 2px white;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        p{
+            width: auto;
+        }
     }
     .cajaBlanca5{
         padding: 2%;
